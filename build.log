@@ -1,0 +1,373 @@
+Processing seeed_xiao (platform: atmelsam; board: seeed_xiao; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelsam/seeed_xiao.html
+PLATFORM: Atmel SAM (8.2.0) > Seeeduino XIAO
+HARDWARE: SAMD21G18A 48MHz, 32KB RAM, 256KB Flash
+DEBUG: Current (atmel-ice) External (atmel-ice, blackmagic, jlink)
+PACKAGES: 
+ - framework-arduino-samd-seeed @ 1.8.4 
+ - framework-cmsis @ 2.50400.181126 (5.4.0) 
+ - framework-cmsis-atmel @ 1.2.2 
+ - toolchain-gccarmnoneeabi @ 1.70201.0 (7.2.1)
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 21 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit GFX Library @ 1.11.9
+|-- Adafruit SSD1306 @ 2.5.9
+|-- Adafruit Unified Sensor @ 1.1.14
+|-- Adafruit BME280 Library @ 2.2.4
+|-- Adafruit MPU6050 @ 2.2.6
+|-- Wire @ 1.0
+Building in release mode
+Compiling .pio\build\seeed_xiao\src\main.cpp.o
+Compiling .pio\build\seeed_xiao\src\test.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\Wire/Wire.h:24:0,
+                 from src\main.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\liba51\Wire\Wire.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\Wire\Wire.cpp:24:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\lib68b\Adafruit_ZeroDMA\Adafruit_ZeroDMA.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\Adafruit_ZeroDMA/Adafruit_ZeroDMA.h:4,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\Adafruit_ZeroDMA\Adafruit_ZeroDMA.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\lib7ac\SPI\SPI.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\SPI\SPI.h:23,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\libraries\SPI\SPI.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\libc12\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\seeed_xiao\libc12\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\seeed_xiao\libc12\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO\Adafruit_I2CDevice.h:4,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO\Adafruit_I2CDevice.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO\Adafruit_SPIDevice.h:4,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO\Adafruit_SPIDevice.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO/Adafruit_BusIO_Register.h:4,
+                 from .pio\libdeps\seeed_xiao\Adafruit BusIO\Adafruit_BusIO_Register.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\lib03c\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\seeed_xiao\lib03c\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\seeed_xiao\lib03c\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\seeed_xiao\lib03c\Adafruit GFX Library\glcdfont.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_GFX.h:5,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_GFX.cpp:34:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Archiving .pio\build\seeed_xiao\libc12\libAdafruit BusIO.a
+Archiving .pio\build\seeed_xiao\lib7ac\libSPI.a
+Archiving .pio\build\seeed_xiao\lib68b\libAdafruit_ZeroDMA.a
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library/Adafruit_GFX.h:5,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_GrayOLED.h:29,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_GrayOLED.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Archiving .pio\build\seeed_xiao\liba51\libWire.a
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_GFX.h:5,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_SPITFT.h:25,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library\Adafruit_SPITFT.cpp:36:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\lib26a\Adafruit SSD1306\Adafruit_SSD1306.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit GFX Library/Adafruit_GFX.h:5,
+                 from .pio\libdeps\seeed_xiao\Adafruit SSD1306\Adafruit_SSD1306.h:42,
+                 from .pio\libdeps\seeed_xiao\Adafruit SSD1306\Adafruit_SSD1306.cpp:53:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\lib54a\Adafruit Unified Sensor\Adafruit_Sensor.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit Unified Sensor\Adafruit_Sensor.h:26,
+                 from .pio\libdeps\seeed_xiao\Adafruit Unified Sensor\Adafruit_Sensor.cpp:1:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\liba6d\Adafruit BME280 Library\Adafruit_BME280.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit BME280 Library\Adafruit_BME280.h:24,
+                 from .pio\libdeps\seeed_xiao\Adafruit BME280 Library\Adafruit_BME280.cpp:31:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\libe8c\Adafruit MPU6050\Adafruit_MPU6050.cpp.o
+Archiving .pio\build\seeed_xiao\lib26a\libAdafruit SSD1306.a
+Archiving .pio\build\seeed_xiao\lib03c\libAdafruit GFX Library.a
+Archiving .pio\build\seeed_xiao\lib54a\libAdafruit Unified Sensor.a
+Compiling .pio\build\seeed_xiao\FrameworkArduinoVariant\variant.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from .pio\libdeps\seeed_xiao\Adafruit MPU6050\Adafruit_MPU6050.cpp:35:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Reset.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Retarget.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0\variant.cpp:19:0:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0\variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\SERCOM.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\IPAddress.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Archiving .pio\build\seeed_xiao\liba6d\libAdafruit BME280 Library.a
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Stream.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\IPv6Address.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\StreamString.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Print.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Tone.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Reset.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\SERCOM.cpp:21:0:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Retarget.cpp:5:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\USB\CDC.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Stream.cpp:25:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\StreamString.cpp:23:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Archiving .pio\build\seeed_xiao\libe8c\libAdafruit MPU6050.a
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Tone.h:23,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Tone.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\CDC.cpp:21:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\USB\PluggableUSB.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\USB\SAMD21_USBDevice.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\USB\USBCore.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\USB\samd21_host.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\Uart.cpp.o
+Archiving .pio\build\seeed_xiao\libFrameworkArduinoVariant.a
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\SAMD21_USBDevice.h:22,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\USBAPI.h:37,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\PluggableUSB.cpp:22:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\WInterrupts.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\WMath.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\SAMD21_USBDevice.h:22,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\SAMD21_USBDevice.cpp:10:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\WString.cpp.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\USBCore.cpp:22:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\USB\samd21_host.c:22:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Uart.cpp:19:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\WInterrupts.c:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\avr\dtostrf.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\cortex_handlers.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\delay.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\hooks.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\itoa.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\libb64\cdecode.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\base64.cpp:25:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\libb64\cencode.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.c:19:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\cortex_handlers.c:21:0:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\main.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\math_helper.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\new.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\pulse.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\pulse_asm.S.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\startup.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring_analog.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\main.cpp:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring_private.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\new.cpp:19:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\startup.c:21:0:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino/Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\pulse.c:19:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring_pwm.cpp.o
+Compiling .pio\build\seeed_xiao\FrameworkArduino\wiring_shift.c.o
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring.c:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_analog.c:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_analog.c:35:12: warning: '_dacResolution' defined but not used [-Wunused-variable]
+ static int _dacResolution = 10;
+            ^~~~~~~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_digital.c:19:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_private.c:20:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+In file included from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\delay.h:24:0,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\Arduino.h:86,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_pwm.h:31,
+                 from C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_pwm.cpp:27:
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\variants\XIAO_m0/variant.h:219:25: warning: extra tokens at end of #endif directive [-Wendif-labels]
+ #endif                  SerialUSB
+                         ^~~~~~~~~
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_pwm.cpp: In function 'void noPwm(uint32_t)':
+C:\Users\chres\.platformio\packages\framework-arduino-samd-seeed\cores\arduino\wiring_pwm.cpp:374:13: warning: unused variable 'tcChannel' [-Wunused-variable]
+     uint8_t tcChannel = GetTCChannelNumber(pinDesc.ulPWMChannel);
+             ^~~~~~~~~
+Archiving .pio\build\seeed_xiao\libFrameworkArduino.a
+Linking .pio\build\seeed_xiao\firmware.elf
+Checking size .pio\build\seeed_xiao\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  10.3% (used 3384 bytes from 32768 bytes)
+Flash: [==        ]  16.1% (used 42304 bytes from 262144 bytes)
+Building .pio\build\seeed_xiao\firmware.bin
+========================= [SUCCESS] Took 8.46 seconds =========================
